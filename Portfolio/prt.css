@@ -1,0 +1,430 @@
+
+.q{
+    
+    color: azure;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 16%
+
+
+}
+.b{
+   
+    color: azure;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+
+
+.t{
+    background-image: url(https://wallpaperaccess.com/full/1483392.jpg);
+
+}
+
+  p{
+      color:white
+      
+  }
+
+  
+.line{
+    color: white;
+    border: solid;
+    width: 90%;
+    margin-left: 5%
+    
+}
+
+
+
+
+.new3{
+    
+    width: 100vw;
+    height: 123vh;
+    background-color:grey;
+}
+
+.new{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: #595959;
+    
+}
+
+.new1{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: #414141;
+    
+}
+
+
+.btn{
+ 
+ z-index: 9;
+ position: absolute;
+ transition: font-size 5s;
+ 
+}
+
+.btn:hover{
+    font-size: 20px;
+    
+}
+.btnc{
+    margin-left: 85%;
+    width: 150px;
+    height: 70px;
+    margin-top: 0%;
+    
+   
+}
+
+
+.con{
+   margin-top: 10px
+}
+.btna{
+    margin-left: 70%;
+    width: 150px;
+    height: 70px;
+    margin-top: 0%;
+   
+    
+}
+.btnw{
+    width: 150px;
+    height: 70px;
+    margin-top: 0%;
+    margin-left: 55%;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 71px;
+    
+}
+
+.about{
+  
+    color: white
+    
+}
+
+.line1{
+    width: 0%;
+    border: solid;
+    color: white
+}
+
+
+.about1{
+    color: white
+}
+
+.contact{
+   
+    color: white
+}
+
+.line2{
+    width: 0%;
+    
+    border: solid;
+   color: white
+    
+}
+
+.mb-3{
+    
+    width: 400px;
+}
+
+.mb-4{
+    
+    width: 400px
+}
+
+
+
+.flex12{
+    
+    text-align: center;
+}
+
+.hi{
+    text-align: center;
+}
+
+section{
+    width: 100%; height: 100vh;
+}
+
+
+.work{
+    color: white;
+
+}
+
+
+
+
+.form-label{
+    color: white
+}
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 71px;
+    background-color: #414141
+
+  }
+
+  [data-aos="shrinkk"] {
+    
+    transition-property: height;
+    
+
+  }
+  
+  [data-aos="shrinkk"].aos-animate {
+    height: 40px;
+   
+  }
+
+  [data-aos="line"] {
+    
+    transition-property: width;
+    
+
+  }
+  
+  [data-aos="line"].aos-animate {
+    width: 50%;
+   
+  }
+
+
+  .social_icons_rounded ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 200px;
+    margin-left: px;
+    
+
+}
+
+.social_icons_rounded ul li a {
+    float: left;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #e0e0e0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    border: 1px solid #e0e0e0
+}
+
+.social_icons_rounded ul li a i {
+    font-size: 16px
+}
+
+.f_facebook:hover {
+    color: #fff;
+    background: #2a66b3;
+    border: 1px solid #2a66b3
+}
+
+.i_instagram:hover {
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border: 1px solid  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.i_instagram{
+    margin-left: 10px
+}
+
+.g_github:hover{
+    color: #fff;
+    background: #171515 ;
+    border: 1px solid #171515
+}
+
+.g_github{
+    margin-left: 10px
+}
+
+.social_icons_rounded{
+    margin-left: 50px;
+    
+}
+
+
+
+
+
+  #items{
+    overflow-y: scroll;
+    
+    width: 620px;
+        white-space: nowrap;
+        height: 25vh;
+        margin-left: 5%;
+        flex-direction: column;
+        display: flex;
+    }
+    .item{
+        
+       display: inline-block;
+       width: 600px;
+       height: 25vh;
+       border:1px solid;
+       display: flex;
+       justify-content: flex-end;
+       
+       
+    }
+
+    li{
+        color: white;
+    }
+    .off:hover{
+        opacity: 40%;
+    }
+
+    .read{
+        display: none ;
+        
+        position: relative;
+        z-index: 9;
+       
+        
+    }
+
+img:hover + .read{
+    display: block;
+}
+
+
+
+
+
+.hidewe{
+    background-color: black;
+    flex-direction: column;
+}
+
+.accordion-body{
+    position: relative;
+    width: 400px;
+    margin-left: 55%;
+    margin-top: -10%;
+    border: solid;
+}
+.modalpic{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    padding: 3%
+   
+}
+
+.accordion{
+    border: solid;
+}
+.modalpic1{
+    width: 460px;
+    height: 300px;
+    position: absolute;
+
+}
+
+
+
+h2{
+    padding-top: 3%;
+} 
+
+.modal-body1{
+    height: 320px;
+}
+
+.modalpic:hover{
+    opacity: 0;
+}
+.modal-body{
+    height: 350px;
+}
+
+.modalpic1:hover{
+    opacity: 0;
+}
+
+video{
+    height: 300px;
+    width: 450px;
+}
+
+.intro{
+    padding-left: 0.5%;
+    padding-right: 0.5%
+}
+
+
+h4{
+    color: white
+}
+
+h5{
+    color: white;
+    padding-left: 0.5%;
+    padding-top: 0%;
+    
+   
+}
+
+.direct{
+    margin-left: 20%;
+    margin-top: -20%;
+    
+}
+
+.hobby{
+    margin-left: 20%
+}
+
+.exp{
+    color: white;
+}
+
+.desc{
+    line-height: 0px;
+    margin: 0
+}
+
+.padd{
+    padding-top: 1%
+    
+}
+
+.expe{
+    margin-left: 680px
+}
+
+.skill{
+    margin-top: 7%
+}
